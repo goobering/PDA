@@ -29,8 +29,8 @@ class TestPracticalTask < Minitest::Test
     assert_equal(100, max(1, 100))
   end
 
-  def test_looper_returns_range()
-    assert_equal(1..10, looper())
+  def test_looper_returns_10()
+    assert_equal(10, looper())
   end
 
 end

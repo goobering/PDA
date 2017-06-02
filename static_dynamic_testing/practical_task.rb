@@ -18,6 +18,7 @@ def looper
   for i in 1..10
     puts i
   end
+  return i
 end
  
 failures = 0 
@@ -43,7 +44,7 @@ else
   failures += 1
 end
   
-if failures 
+if failures > 0
   puts "Test Failed"
 else
   puts "Test Passed"
